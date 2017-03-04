@@ -1,0 +1,731 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getCString"
+			],
+			[
+				"tem",
+				"tempHighScore"
+			],
+			[
+				"sc",
+				"score"
+			],
+			[
+				"score",
+				"scoreLabel"
+			],
+			[
+				"s",
+				"score"
+			],
+			[
+				"add",
+				"addChild"
+			],
+			[
+				"main",
+				"mainMenuItem"
+			],
+			[
+				"ret",
+				"retryItem"
+			],
+			[
+				"G",
+				"GameOverScene"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"poi",
+				"pointBody"
+			],
+			[
+				"gt",
+				"getPositionX"
+			],
+			[
+				"top",
+				"topPipe"
+			],
+			[
+				"set",
+				"setPosition"
+			],
+			[
+				"setP",
+				"setPhysicsBody"
+			],
+			[
+				"setC",
+				"setContactTestBitmask"
+			],
+			[
+				"P",
+				"PIPE_GAP"
+			],
+			[
+				"S",
+				"Sprite"
+			],
+			[
+				"cr",
+				"createBox"
+			],
+			[
+				"st",
+				"StopFlying"
+			],
+			[
+				"shede",
+				"schedule_selector"
+			],
+			[
+				"on",
+				"onTouchBegan"
+			],
+			[
+				"touc",
+				"touchListener"
+			],
+			[
+				"cre",
+				"create"
+			],
+			[
+				"Phy",
+				"PhysicsBody"
+			],
+			[
+				"con",
+				"contactListener"
+			],
+			[
+				"ed",
+				"edgeBody"
+			],
+			[
+				"fla",
+				"flappyBird"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Bird.h",
+			"settings":
+			{
+				"buffer_size": 338,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Bird.cpp",
+			"settings":
+			{
+				"buffer_size": 1039,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Pipe.h",
+			"settings":
+			{
+				"buffer_size": 220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "GameScene.h",
+			"settings":
+			{
+				"buffer_size": 757,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Pipe.cpp",
+			"settings":
+			{
+				"buffer_size": 2571,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "GameScene.cpp",
+			"settings":
+			{
+				"buffer_size": 4184,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "AppDelegate.h",
+			"settings":
+			{
+				"buffer_size": 941,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#ifndef __DEFINITIONS_H__\n#define __DEFINITIONS_H__\n\n#define DISPLAY_TIME_SPLASH_SCENE 2\n#define TRANSITION_TIME 0.5\n#define PIPE_SPAWN_FREQUENCY 0.005\n\n#define PIPE_GAP 5\n#define UPPER_SCREEN_PIPE_THRESHOLD 0.65\n#define LOWER_SCREEN_PIPE_THRESHOLD 0.35\n\n#define PIPE_MOVEMENT_SPEED 0.01\n\n#define BIRD_COLLISION_BITMASK 0x000001\n#define OBTACLE_COLLISION_BITMASK 0x000002\n#define POINT_COLLISION_BITMASK 0x000003\n\n#define BIRD_FALLING_SPEED 0.0025\n#define BIRD_FLYING_SPEED 0.00375\n#define BIRD_FLY_DURATION 0.25\n\n#define SCORE_FONT_SIZE 0.1\n\n\n#endif // __DEFINITIONS_H__\n",
+			"file": "Definitions.h",
+			"file_size": 571,
+			"file_write_time": 131198915955147709,
+			"settings":
+			{
+				"buffer_size": 572,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "GameOverScene.cpp",
+			"settings":
+			{
+				"buffer_size": 2992,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "SplashScene.cpp",
+			"settings":
+			{
+				"buffer_size": 1384,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "GameOverScene.h",
+			"settings":
+			{
+				"buffer_size": 456,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jack/Desktop/flappyBird/FlappyBird/Classes"
+	],
+	"file_history":
+	[
+		"/home/jack/Desktop/flappyBird/FlappyBird/Classes/GameScene.h",
+		"/home/jack/Desktop/flappyBird/FlappyBird/Classes/GameScene.cpp",
+		"/home/jack/Desktop/flappyBird/FlappyBird/Classes/Bird.h",
+		"/home/jack/Desktop/flappyBird/FlappyBird/Classes/Bird.cpp",
+		"/home/jack/Desktop/flappyBird/FlappyBird/Classes/SplashScene.cpp",
+		"/home/jack/Desktop/flappyBird/FlappyBird/Classes/Pipe.h",
+		"/home/jack/Desktop/flappyBird/FlappyBird/proj.linux/main.cpp",
+		"/home/jack/Desktop/flappyBird/FlappyBird/CMakeLists.txt"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Bird.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Bird.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Pipe.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "GameScene.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 757,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								711,
+								711
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Pipe.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1851,
+								1851
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "GameScene.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3614,
+								3614
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 987.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "AppDelegate.h",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 941,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Definitions.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								537,
+								537
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "GameOverScene.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								197,
+								197
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "SplashScene.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								661,
+								661
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "GameOverScene.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								177
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "flappybird.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
